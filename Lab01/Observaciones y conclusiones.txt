@@ -1,0 +1,25 @@
+OBSERVACIONES
+
+- Una de las formas en las que Odoo se puede maniestar es a traves de un puerto localhost en este caso
+el 8069
+
+- Odoo es un completo sistema de gestión empresarial (ERP) de código abierto y sin coste de licencias.
+
+- Cubre las necesidades de las áreas de: Contabilidad y Finanzas, Ventas, RRHH, Compras, Proyectos, Almacenes (SGA), CRM y Fabricación entre otras.
+
+- Odoo ofrece a las PyMEs el acceso a un software de gestión de sus procesos de negocio completo, fiable, amigable, fácil de usar, 
+dinámico y escalable, que hasta no hace mucho estaba sólo al alcance de grandes organizaciones.
+
+- Dispone asimismo de versión para dispositivos móviles (smartphones y tablets) que simplifica las vistas para acceder tanto desde iOS como desde Android.
+CONCLUSIONES
+
+- Aprendimos el entorno de desarrollo en la que consiste Odoo
+
+- Aplicamos la instalacion de odoo en las plataformas de windows y linux
+
+- En este primer laboratorio vimos que es el sistema de odoo y como es son los requisitos que este pide 
+al momento de instalarlos en las diversas plataformas disponibles
+
+- La herramienta se articula por módulos o aplicaciones, de tal manera que no es necesario instalar todas las aplicaciones, sino que cada 
+empresa implementará sólo aquellos módulos que necesite en cada momento.
+
