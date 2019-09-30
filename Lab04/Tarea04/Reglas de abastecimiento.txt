@@ -1,0 +1,12 @@
+A continuación, añadiremos las reglas de reabastecimiento y stock mínimo para el producto. Éstas reglas definen bajo qué condiciones se generan las abastecimientos automáticamente, según distintos parámetros.
+
+Nos situraremos en el menú Inventario > Control inventario > Reglas de reabastecimiento, y pulsaremos sobre «Crear».
+
+Nombre: Nombre de la regla. Por defecto Odoo asigna un nombre de regla según una secuencia parametrizable, aunque podemos cambiar el nombre si nos interesa identificar mejor la regla.
+Producto: Producto al que aplicará la regla.
+Almacén: Almacén en el que se comprobarán los niveles de stock del producto para lanzar los reabastecimientos automáticos.
+Ubicación: Ubicación del almacén
+Reglas:
+Cantidad mínima: Cuando las existencias virtuales (stock + en previsión de llegada) estén por debajo de la cantidad mínima, Odoo lanzará el abastecimiento para llevar las existencias virtuales a la cantidad máxima.
+Cantidad máxima: Cantidad objetivo a la que deben llegar los niveles de stock para este producto. El sistema solicitará abastecer tantas unidades como sea necesario para elevar las existencias virtuales a la cantidad indicada en este campo.
+Múltiplo de la cantidad: La cantidad será redondeada a este múltiplo en el caso de que se indique. Si indicamos 0, se usará la cantidad exacta.
