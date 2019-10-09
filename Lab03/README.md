@@ -41,11 +41,11 @@ Imagenes:
 
 6.3_4.A continuación se muestra los datos del nuevo Cliente y los datos de un nuevo contacto asociado al cliente.
 
-    ![Lab_03](/Lab03/Lab3/23.5.JPG)
+![Lab_03](./Lab3/23.5.JPG)
 
 6.3_7.Verifique que en la vista Kanban se muestre la nueva oportunidad creada
 
-    ![Lab_03](/Lab03/Lab3/24.7.JPG)
+![Lab_03](./Lab3/24.7.JPG)
 
 7.Generar iniciativas desde el sitio web de ODOO
 
