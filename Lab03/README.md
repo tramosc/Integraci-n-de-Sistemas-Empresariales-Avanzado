@@ -3,7 +3,7 @@ Desarrollo del laboratorio 4
 4.2. Clic en el botón Crear
 4.3. Complete los datos del nuevo Cliente:
 Imagenes:
-\Lab03\Lab3\1.JPG
+![Lab_03](/Lab03/Lab3/1.JPG)
 \Lab03\Lab3\2.JPG
 \Lab03\Lab3\3.JPG
 \Lab03\Lab3\4.JPG
