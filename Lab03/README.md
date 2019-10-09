@@ -73,8 +73,12 @@ Capturas
 
 Observaciones y Conclusiones
 
-Con Odoo la gestión de Relaciones con los Clientes se utiliza para definir una estrategia de negocio enfocada al cliente, cuyo objetivo es reunir la máxima información posible sobre sus clientes, generar relaciones a largo plazo y aumentar su grado de satisfacción.
-Se podra gestinar las iniciativas de Marketing, las oportunidades comerciales de los clientes potenciales y la manera de generar relaciones con ellos.
-Se podra clasificar las propuestas entre su equipo comercial, obtenga un seguimiento sencillo, y visual por etapas de venta, y visualice informes de ventas por cuenta, comercial y zona (¡y muchos más filtros!), todo ello integrado completamente con el resto del ERP. 
-Todos los presupuestos generados en el laboratorio podrán ser convertidos a pedidos, factura y se contabilizarán automáticamente.
-Con ODOO tiene el CRM más completo y avanzado una empresa y sin costes de licencias. 
+- Con Odoo la gestión de Relaciones con los Clientes se utiliza para definir una estrategia de negocio enfocada al cliente, cuyo objetivo es reunir la máxima información posible sobre sus clientes, generar relaciones a largo plazo y aumentar su grado de satisfacción.
+
+- Se podra gestinar las iniciativas de Marketing, las oportunidades comerciales de los clientes potenciales y la manera de generar relaciones con ellos.
+
+- Se podra clasificar las propuestas entre su equipo comercial, obtenga un seguimiento sencillo, y visual por etapas de venta, y visualice informes de ventas por cuenta, comercial y zonas, todo ello integrado completamente con el resto del ERP. 
+
+- Todos los presupuestos generados en el laboratorio podrán ser convertidos a pedidos, factura y se contabilizarán automáticamente.
+
+- Con ODOO tiene el CRM más completo y avanzado una empresa y sin costes de licencias. 
