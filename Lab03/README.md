@@ -84,7 +84,7 @@ Secuencia de creacion de oportunidades
 
 Vista de las dos oportunidades
 
-![Lab_03](./oportunidad_creacion/Las dos oportunidades.JPG)
+![Lab_03](./oportunidad_creacion/Dos_oportunidades.JPG)
 
 TAREA PROPUESTA
 
