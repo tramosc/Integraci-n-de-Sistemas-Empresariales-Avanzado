@@ -1,74 +1,107 @@
-Laboratorio 04
+Laboratorio 05
+Desarrollo del laboratorio:
+2. Creación de Cotización a cliente
+2.1. Entramos al menú Cotización y empezamos la creación de una nueva cotización. Podemos apreciar que están los productos creados en el laboratorio anterior.
 
-2.Configuración de Almacenes
+![Lab_05_1](./Capturas/2_1_3.JPG)
 
-2.11. Al darle click en Guardar y Cerrar, veremos que dicho contacto ha sido añadido a la pestaña de Contactos y Direcciones dentro de My Company.
+2.2. Seleccionemos manzanas verdes e intentemos vender 100 unidades. En caso no tengamos stock suficiente, el sistema nos dará una alerta al respecto. Esto es muy útil para la persona que realiza la cotización.
 
-![Lab_04_1](./Capturas/2_11_5.JPG)
+![Lab_05_2](./Capturas/2_2_3.JPG)
 
-2.12. Demos click en guardar para volver a la edición del almacén. Ahora, al hacer click nuevamente en My Company, el menú desplegable mostrará la opción de Almacén Los Incas, que es la denominación que le dimos a nuestro almacén secundario.
+2.3. A pesar de la falta de stock, crearemos la Cotización con al menos dos productos.
 
-![Lab_04_2](./Capturas/2_12_6.JPG)
+![Lab_05_3](./Capturas/2_3_3.JPG)
 
-2.13. Así mismo, veremos que se han creado automáticamente rutas para dicho almacén. Si uno desea modificarlas, puede entrar directamente a ellas o incluso crear una ruta nueva.
+2.6. Demos click en Guardar y luego en Validar. Al validar la cotización, aparecerán nuevas opciones, como Enviar por Email, Imprimir o incluso, Confirmar Venta (recordar que esta es solamente una cotización para un cliente interesado en comprar)
 
-![Lab_04_3](./Capturas/2_13_6.JPG)
+![Lab_05_4](./Capturas/2_6_4.JPG)
 
-3. Tipos de operaciones
+2.8. Ahora que hemos ingresado un correo válido para el cliente (para las pruebas, ingrese un correo personal, usaremos el correo de TECSUP más adelante), nos aparecerá un asistente de redacción del correo. Cada vez que intentamos enviar un correo de cierto documento, Odoo precarga una plantilla con texto por defecto, además de adjuntar el documento en formato PDF. Esto permite flexibilidad en el tipo de correo a enviar según el cliente deseado, e inclusive, añadir más adjuntos, digamos, un contrato o una foto del producto.
 
-3.2. Estas son las operaciones permitidas por el sistema. Uno puede restringir a un usuario a solamente realizar ciertas operaciones o tener acceso a todas, dependiendo del almacén en el que trabajan. Haremos click en Recepciones del Almacén secundario para ver un poco más el detalle.
+![Lab_05_5](./Capturas/2_8_5.JPG)
 
-![Lab_04_4](./Capturas/3_2_6.JPG)
+La cotización pasa ahora a ser un Presupuesto o Pedido de Venta. 
 
-3.3. Lo interesante de los tipos de operaciones es que ya tienen personalizadas las ubicaciones de origen y destino. En este caso, solamente indica la de destino como el almacén secundario, indicando que esta operación permite trasladar un producto de cualquier lugar al almacén secundario
+![Lab_05_6](./Capturas/2_8_1-5.JPG)
 
-![Lab_04_5](./Capturas/3_2_6.JPG)
 
-4. Gestión de Productos
+Podemos ver así mismo, las nuevas opciones, como Entrega y Crear Factura
 
-4.6. Crearemos el producto manzana verde con los siguientes datos.
+![Lab_05_7](./Capturas/2_8_2-5.JPG)
 
-![Lab_04_6](./Capturas/4_6_9.JPG)
 
-4.9. Otras opciones que tenemos dentro de la ficha del producto son la impresión de etiquetas, útiles para pegar en los anaqueles de venta.
+3. Entrega de productos de una Cotización
+Capturas
 
-![Lab_04_7](./Capturas/4_9_9.JPG)
+![Lab_05_8](./Capturas/3_1_6.JPG)
+![Lab_05_9](./Capturas/3_1_2_6.JPG)
+![Lab_05_9_1](./Capturas/3_1_3_6.JPG)
+![Lab_05_9_2](./Capturas/3_2_6.JPG)
+![Lab_05_9_3](./Capturas/3_3_7.JPG)
+![Lab_05_9_4](./Capturas/3_3_2_7.JPG)
+![Lab_05_9_5](./Capturas/3_4_7.JPG)
 
-4.10. La opción de Movimientos de producto, nos permite rastrear cada traslado de dicho producto ya sea entre almacenes o salidas del mismo.
+4. Facturación y registro de pago de una Cotización
+4.4. Demos click en Validar. Al igual que con otros documentos, aparecerán nuevas opciones en esta factura. Podremos incluso crear un correo con el adjunto de la factura generada para pagar.
 
-![Lab_04_8](./Capturas/4_10_10.JPG)
+![Lab_05_10](./Capturas/4_4.JPG)
 
-6. Ajustes de inventarios.
 
-6.6. Hagamos click en Validar inventario para asentar dichos movimientos.
+4.5. Al haber validado esta factura, se afectará al estado del cliente. Si buscamos en el menú Clientes, veremos que nuestro contacto ahora tiene un indicador de cuantas ventas tiene.
 
-![Lab_04_9](./Capturas/6_6_18.JPG)
+![Lab_05_11](./Capturas/4_5_10.JPG)
 
-6.7. Al volver a la vista de productos, veremos reflejado el ajuste al ver los nuevos stocks.
 
-![Lab_04_10](./Capturas/6_7_14.JPG)
+ Al entrar al contacto, vemos el total facturado hasta el momento a dicho cliente. 
 
-7. Transferencias internas
+![Lab_05_12](./Capturas/4_5_2_10.JPG)
 
-7.4. Seleccionaremos la opción de transferencias internas desde My Company, y cambiaremos las ubicaciones de origen y destino tal como se muestra en la imagen.
 
-![Lab_04_10](./Capturas/7_4_15.JPG)
+E incluso, al hacer click en Imprimir, tendremos un reporte llamado Pagos pendientes, que muestra todo el detalle de deuda del cliente.
+4.6. Volvamos a la factura. Ahora demos click en Registrar Pago. Por defecto, se completa el monto para toda la factura y darla por cancelada.
 
-7.5. Demos click en validar para hacer la transferencia válida. Como dato adicional, en la parte inferior de la transferencia, veremos el historial de las operaciones creadas a partir de dicho documento.
+![Lab_05_13](./Capturas/4_6_10.JPG)
 
-![Lab_04_11](./Capturas/7_5_15.JPG)
 
-7.6. Vamos a uno de los productos trasladados. Vemos de que el stock sigue siendo el mismo, no ha variado.
+En caso, nos vayan a hacer un pago parcial, ingresamos la cantidad abonada. El sistema se dará cuenta de esto y nos preguntará si debe mantener aún abierta la factura o pagarla totalmente. La dejaremos abierta y validaremos el pago.
+Si vemos el detalle de la factura, en la parte de los totales veremos registrado el pago y el saldo pendiente de pago. 
+Esto también podremos observarlo en el módulo de Facturación, al ver el comprobante en estado abierto y cuál es el saldo pendiente.
 
-![Lab_04_12](./Capturas/7_6_15.JPG)
 
-7.7. Sin embargo, al hacer click en Stock a mano, veremos que el stock ahora está repartido en dos ubicaciones, esto debido a la transferencia realizada.
+![Lab_05_14](./Capturas/4_6_2_11.JPG)
 
-![Lab_04_12](./Capturas/7_7_16.JPG)
+5. Configuración de envío de Correos
+5.2. De click en Editar para modificar el servidor de correo. Ingresaremos la siguiente data. Reemplace el correo por el suyo propio de Tecsup y coloque la contraseña que utiliza para iniciar sesión.
 
-7.8. Cuando hacemos click en Tablero, vemos justamente todas las operaciones en proceso. Esto es útil para poder ver cuantas transferencias hay actualmente en camino a ser concretadas.
+![Lab_05_15](./Capturas/5_2_12.JPG)
 
-![Lab_04_13](./Capturas/7_8_16.JPG)
+5.3. Vamos a la URL https://myaccount.google.com/security y deslicemos la pantalla hasta la opción de Acceso de aplicaciones poco seguras. Demos click en Activar acceso.
+Ahora, solamente debemos permitir el acceso a estas aplicaciones
 
-Observaciones y Conclusiones:
+![Lab_05_16](./Capturas/5_3_12.JPG)
+
+Una vez hecho esto, volvamos a Odoo y probemos la conexión. En caso de ser exitoso, demos click en Guardar.
+
+![Lab_05_17](./Capturas/5_3_2_12.JPG)
+
+
+6. Cambio de secuencia.
+6.4. Guarde los cambios de la secuencia y cree otra Cotización. Verá el cambio rápidamente reflejado. Así podemos modificar todas las secuencias del sistema, no solamente las de ventas.
+
+![Lab_05_18](./Capturas/6_4_14.JPG)
+![Lab_05_18_2](./Capturas/6_4_2_14.JPG)
+
+7. Listas de precios
+7.3. Proceda a crear otra cotización y juegue con el cambio de Lista de Precio (este campo no estaba activado antes)
+
+
+![Lab_05_19](./Capturas/7_3_pag15.PNG)
+
+
+8. Portal del cliente
+8.3. Le diremos al sistema que este cliente tiene acceso. De click en el check al costado del correo electrónico para poder marcarlo y activarlo.
+
+![Lab_05_20](./Capturas/8_3_pag17.PNG)
+
 
